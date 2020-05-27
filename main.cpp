@@ -9,7 +9,7 @@ string x;
 
 int main(){
 	ifstream plik;
-	plik.open("C:\\Users\\Mateusz\\a.txt");
+	plik.open("a.txt");
 	if(plik.good()){
 		while(!plik.eof()){
 			plik >> x;
