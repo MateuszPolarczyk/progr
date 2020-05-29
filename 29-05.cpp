@@ -20,7 +20,7 @@ void wypiszLiczbeJSON(int liczba){
 
 int main(int argc, char** argv) {
 	
-	output.open("output.txt");
+	output.open("output.json");
 	
 	cout << "Wczytaj liczbe losowa: ";
 	cin >> max;
