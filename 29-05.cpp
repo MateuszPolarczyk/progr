@@ -20,8 +20,8 @@ void wypiszLiczbeJSON(int liczba){
 
 int main(int argc, char** argv) {
 	
-	srand(time(NULL));
 	output.open("output.json");
+	srand(time(NULL));
 	
 	cout << "Wczytaj liczbe losowa: ";
 	cin >> max;
