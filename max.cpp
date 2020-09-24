@@ -18,7 +18,7 @@ void max() {
 	}
 	
 	for(int i=0; i<10; i++) { 
-		if(t[i] > max){
+		if(t[i] > max) {
 			max2 = max;
 			max = t[i];
 		} else
@@ -31,9 +31,7 @@ void max() {
 }
 
 void min() {
-	int min, min2;
-	
-	int t[10];
+	int min, min2, t[10];
 	
 	for(int i=0; i<10; i++){
 		cout << "Podaj liczbe (" << i + 1 << "): ";
@@ -48,11 +46,11 @@ void min() {
 	}
 
 	for(int i=0; i<10; i++) { 
-		if(t[i] < min){
+		if(t[i] < min) {
 			min2 = min;
 			min = t[i];
 		} else
-		if(t[i] < min2){
+		if(t[i] < min2) {
 			min2 = t[i];
 		}
 	}
