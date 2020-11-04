@@ -37,18 +37,18 @@ int main(int argc, char** argv) {
     string a_xor_b_bin = dec2bin((a ^ b));
     
 
-	  cout << "Dwojkowe A: " << binaryA << "\n";
-	  cout << "Dwojkowe B: " << binaryB << "\n";
+	cout << "Dwojkowe A: " << binaryA << "\n";
+	cout << "Dwojkowe B: " << binaryB << "\n";
     
-    cout << "A & B: " << a_and_b_bin << "\n";
-    cout << "A | B: " << a_or_b_bin << "\n";
-    cout << "A ^ B: " << a_xor_b_bin << "\n";
+    	cout << "A & B: " << a_and_b_bin << "\n";
+    	cout << "A | B: " << a_or_b_bin << "\n";
+    	cout << "A ^ B: " << a_xor_b_bin << "\n";
 
-	  cout << "Negacja bitowa A: " << ( ~a ) << "\n"; 
-	  cout << "Negacja logiczna A: "<< ( !a ) << "\n";
+	cout << "Negacja bitowa A: " << ( ~a ) << "\n"; 
+	cout << "Negacja logiczna A: "<< ( !a ) << "\n";
 	
-	  cout << "Negacja bitowa B: " << ( ~b ) << "\n"; 
-	  cout << "Negacja logiczna B: " << ( !b ) << "\n";
+	cout << "Negacja bitowa B: " << ( ~b ) << "\n"; 
+	cout << "Negacja logiczna B: " << ( !b ) << "\n";
 
     return 0;
 }
