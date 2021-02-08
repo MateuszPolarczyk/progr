@@ -18,7 +18,7 @@ int countSix(int number, int type) {
 		while(number) {
 			if(number %8 == 6) {
 				counter++;
-				number /= 10;
+				number /= 8;
 			}
 		}
 	}
