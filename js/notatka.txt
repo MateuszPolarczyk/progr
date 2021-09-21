@@ -1,0 +1,21 @@
+Wyrażenia regularne
+
+1. Wyrażenie regularne to  wzorzec w tekście. Przykład: email, kod pocztowy.
+
+2. Javascript
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+3. Wzory
+[0-9] - liczba
+[a-z] - mała litera
+[A-Z] - duża litera
+. - dowolny znak
+* - 0 lub więcej razy
++ - conajmniej raz
+{3} - 3 razy
+? - operator zachłanny
+
+[0-9]{2}-[0-9]{3} - kod pocztowy
+[a-z]@[a-z]\.pl - email
+.{3} - 3 kropki
+.* - dowolne
