@@ -45,6 +45,7 @@ void Gen::read() {
 	}
 	
 	cout << "Najwieksza liczba genow w genotypie: " << max << "\n";
+	// todo najdluzszy genotyp
 	cout << "Najdluzszy genotyp: " << genDl;
 }
 
