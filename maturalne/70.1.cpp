@@ -25,7 +25,7 @@ double Zaslona::integral() {
 }
 
 double Zaslona::f(double x) {
-	return (x*x*x*x)/500 - (x*x)/200 - (3.0/250);
+	return ((x*x*x*x)/500) - ((x*x)/200) - (3.0/250);
 }
 
 double Zaslona::g(double x) {
